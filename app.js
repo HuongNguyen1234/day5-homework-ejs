@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const path = require("path");
 
-const routes = require("./router");
+const api = require("./api");
 const app = express();
 const port = 3001;
 
@@ -18,10 +18,10 @@ app.get("/question", function(req, res) {
   var options = {
     root: path.join(__dirname, "public")
   };
-  res.render("/question", options);
+  res.render("question", options);
 });
 
 app.use(express.static("./public"));
-app.use("/router", routes);
+app.use("/api", api);
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
