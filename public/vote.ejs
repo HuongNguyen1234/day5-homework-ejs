@@ -1,0 +1,17 @@
+<table>
+  <tr>
+    <th>Question</th>
+    <th>Yes</th>
+    <th>No</th>
+  </tr>
+
+  <% data.forEach(element => {%>
+  <tr>
+    <td><%= element.questionContent %></td>
+    <td><%= element.yes %></td>
+    <td><%= element.no %></td>
+  </tr>
+  <%});%>
+</table>
+
+<a href="/">go to home</a>

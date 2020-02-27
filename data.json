@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "questionContent": "Do you think that this is a question?",
+    "yes": 0,
+    "no": 0
+  },
+  { "id": 2, "questionContent": "Is this a question?", "yes": 0, "no": 0 },
+  { "id": 3, "questionContent": "hỏi gì bây h?", "yes": 0, "no": 0 },
+  { "id": 4, "questionContent": "what do you want to ask?", "yes": 0, "no": 0 },
+  { "id": 5, "questionContent": "ko có gì để hỏi à?", "yes": 0, "no": 1 },
+  {
+    "id": 6,
+    "questionContent": "ohohohohohoohohohohohoohohoho",
+    "yes": 0,
+    "no": 0
+  },
+  { "id": 7, "questionContent": "one more question?", "yes": 0, "no": 0 },
+  { "id": 8, "questionContent": "aaaaaaaa", "yes": 0, "no": 1 }
+]
